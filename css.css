@@ -1,50 +1,54 @@
 body {
-    background-color: silver;
+  background-color: silver;
 }
 
 h1,
 h3 {
-    text-align: center;
+  text-align: center;
+}
+
+#testing {
+  color: rgb(80, 135, 125);
 }
 
 .form-Parent {
-    text-align: center;
-    padding: 1em;
-    margin: 1em;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
 }
 
 .form-content {
-    padding: .5em;
+  padding: 0.5em;
 }
 
 label {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .asterix {
-    color: red;
+  color: red;
 }
 
 #error-Message {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 #buttonsOnForm {
-    padding: 1em;
+  padding: 1em;
 }
 
 button {
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#2600fd;
-    text-align:center;
-    transition: all 0.2s;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #2600fd;
+  text-align: center;
+  transition: all 0.2s;
 }
