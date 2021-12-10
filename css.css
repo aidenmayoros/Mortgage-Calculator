@@ -1,5 +1,9 @@
-body {
-  background-color: silver;
+html {
+  background-image: linear-gradient(
+    to right,
+    rgba(249, 249, 249, 0.817),
+    rgb(0, 166, 255)
+  );
 }
 
 h1,
@@ -7,31 +11,39 @@ h3 {
   text-align: center;
 }
 
-#testing {
-  color: rgb(80, 135, 125);
-}
-
 .form-Parent {
   text-align: center;
-  padding: 1em;
-  margin: 1em;
+  padding: 1rem;
 }
 
 .form-content {
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 label {
   font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+input {
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: 0.1em solid #000000;
 }
 
 .asterix {
   color: red;
+  font-size: 1.3rem;
 }
 
 #error-Message {
   color: red;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 #buttonsOnForm {
@@ -40,15 +52,17 @@ label {
 
 button {
   display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid #ffffff;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
+  padding: 0.5em 1em;
+  border: 0.2em solid #000000;
+  border-radius: 0.3rem;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #2600fd;
+  font-weight: bold;
+  color: #000000;
   text-align: center;
-  transition: all 0.2s;
+  transition: all 0.5s;
+}
+
+#requiredtag {
+  font-size: 1.5rem;
 }
